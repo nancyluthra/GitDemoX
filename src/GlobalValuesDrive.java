@@ -11,5 +11,6 @@ public class GlobalValuesDrive {
 		FileInputStream fis = new FileInputStream("C:\\Users\\ics\\Downloads\\Selenium Test\\Test\\data.properties");
 		prop.load(fis);
 		System.out.println(prop.getProperty("browser"));
+		System.out.println("test");
 	}
 }
